@@ -1,0 +1,132 @@
+.mapDiv {
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+.nav {
+  float: right;
+  position: fixed;
+  top: 0;
+  margin: 30px;
+  z-index: 100;
+}
+.child {
+  width: 100px;
+  height: 50px;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 52%;
+  left: 48.25%;
+  margin: 0 0 0 0; /* Apply negative top and left margins to truly center the element */
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Phi_fenomeni.gif/50px-Phi_fenomeni.gif")
+    50% 50% no-repeat rgb(249, 249, 249);
+}
+
+.filter {
+  padding: 25px 50px;
+  background-color: white;
+}
+
+.listMap {
+  padding: 10px 50px 25px 50px;
+}
+
+.listMapBackground {
+  background-color: white;
+  transition: opacity 0.5s ease-in;
+}
+
+.marginTop60 {
+  margin-top: 0px;
+}
+
+.margin10 {
+  margin: 10px 0 0 10px;
+}
+
+.margin10Right {
+  margin: 10px 10px 0 0;
+}
+
+.marginBottom10 {
+  margin-bottom: 10px 0 0 10px;
+  color: black
+}
+
+.marginBottom10FontSize20 {
+  color: black;
+  margin-bottom: 10px 0 0 10px;
+  font-size: 20px;
+}
+
+.listMapAlignRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+.logoFilter {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  background-color: white;
+}
+
+.buttonSubmit {
+  padding: 8px 16px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 5px solid;
+  border-color: #3e7c17;
+  background-color: #ffffff;
+  color: black;
+  display: block;
+  width: 100%;
+}
+
+#seasons-filter {
+  height: 160px;
+  width: 100%;
+  visibility: hidden;
+}
+
+.season-item {
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  vertical-align: baseline;
+  cursor: pointer;
+  height: 40px;
+}
+
+.season-item:focus {
+  background-color: dimgrey;
+}
+
+.season-item:hover {
+  background-color: dimgrey;
+}
+
+.textCenter {
+  text-align: center;
+  color: black;
+}
+
+.gg-close {
+  color: black;
+}
